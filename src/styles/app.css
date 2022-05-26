@@ -12,8 +12,9 @@
 }
 
 body {
-  background: linear-gradient(var(--dark-color), var(--light-color));
-  background-repeat: no-repeat;
   height: 100vh;
   padding: 10px;
+  background: linear-gradient(var(--dark-color), var(--light-color));
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
