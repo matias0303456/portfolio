@@ -1,3 +1,6 @@
+@import url('./pages/home.css');
+@import url('./components/sideMenu.css');
+
 :root {
   --dark-color: #f86f2a;
   --medium-color: #f7722f;
@@ -17,4 +20,10 @@ body {
   background: linear-gradient(var(--dark-color), var(--light-color));
   background-repeat: no-repeat;
   overflow: hidden;
+}
+
+h2 {
+  color: white;
+  font-family: var(--artistic-font);
+  font-size: 3rem;
 }
