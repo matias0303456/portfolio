@@ -15,15 +15,19 @@
 }
 
 body {
-  height: 100vh;
   padding: 10px;
   background: linear-gradient(var(--dark-color), var(--light-color));
   background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 h2 {
   color: white;
   font-family: var(--artistic-font);
-  font-size: 3rem;
+  font-size: 2.3rem;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: var(--medium-color);
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }

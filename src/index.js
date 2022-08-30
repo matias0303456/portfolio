@@ -5,6 +5,7 @@ import "@fontsource/maitree"
 import "@fontsource/milonga"
 import "@fontsource/merienda"
 import "@fontsource/new-tegomin"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import App from './App';
 
