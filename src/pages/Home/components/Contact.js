@@ -8,18 +8,26 @@ export default function Contact() {
             <h2>
                 Contacto
             </h2>
-            <p>
-                <CgMail />
-                matiasramos261@gmail.com
-            </p>
-            <p>
-                <BsLinkedin />
-                https://www.linkedin.com/in/matias-ramos-web/
-            </p>
-            <p>
-                <AiFillGithub />
-                https://github.com/matias0303456
-            </p>
+            <div id='contact_container'>
+                <p>
+                    <CgMail className='media_logo' />
+                    <span>
+                        matiasramos261@gmail.com
+                    </span>
+                </p>
+                <p>
+                    <BsLinkedin className='media_logo' />
+                    <span className='linkable' onClick={() => window.open('https://www.linkedin.com/in/matias-ramos-web/', '_blank')}>
+                        https://www.linkedin.com/in/matias-ramos-web/
+                    </span>
+                </p>
+                <p>
+                    <AiFillGithub className='media_logo' />
+                    <span className='linkable' onClick={() => window.open('https://github.com/matias0303456', '_blank')}>
+                        https://github.com/matias0303456
+                    </span>
+                </p>
+            </div>
         </article>
     )
 }

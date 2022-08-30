@@ -1,0 +1,30 @@
+#contact_container {
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgba(130, 130, 130, .5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#contact {
+    min-height: 300px !important;
+}
+
+#contact_container p {
+    text-align: center;
+}
+
+.media_logo {
+    font-size: 1.5rem;
+}
+
+#contact_container p span {
+    margin-left: 5px;
+    color: #fff;
+    transition: 200ms all;
+}
+
+.linkable:hover {
+    cursor: pointer !important;
+    color: var(--light-color) !important;
+}
