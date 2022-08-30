@@ -74,7 +74,8 @@ nav {
 
 .main_section_container {
   position: relative;
-  height: 500px;
+  min-height: 450px;
+  margin-bottom: 20px;
 }
 
 .main_section_container h2 {

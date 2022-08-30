@@ -1,0 +1,83 @@
+.profile_container {
+    display: flex;
+}
+
+.profile_container .text_container {
+    width: 60%;
+    margin: 0 auto;
+    background: linear-gradient(rgb(242, 100, 64), rgb(255, 255, 255));
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.profile_container .logo_container {
+    position: relative;
+    font-size: 4rem;
+    color: #fff;
+    width: 25%;
+}
+
+.logo_container .logo {
+    position: absolute;
+}
+
+#html_logo {
+    top: 40%;
+    left: 10%;
+    transform: rotate(330deg);
+}
+
+#react_logo {
+    top: 15%;
+    left: 30%;
+}
+
+#php_logo {
+    top: 50%;
+    left: 50%;
+    transform: rotate(340deg);
+}
+
+#bs_logo {
+    top: 85%;
+    left: 20%;
+    transform: rotate(350deg);
+}
+
+#mysql_logo {
+    top: 70%;
+    left: 70%;
+}
+
+#css_logo {
+    top: 10%;
+    left: 70%;
+    transform: rotate(20deg);
+}
+
+#node_logo {
+    top: 35%;
+    left: 45%;
+    transform: rotate(350deg);
+}
+
+#tw_logo {
+    top: 70%;
+    left: 10%;
+    transform: rotate(330deg);
+}
+
+#prisma_logo {
+    top: 50%;
+    left: 30%;
+}
+
+#js_logo {
+    top: 85%;
+    left: 60%;
+}
+
+#laravel_logo {
+    top: 15%;
+    left: 15%;
+}
