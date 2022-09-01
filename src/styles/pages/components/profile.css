@@ -81,3 +81,21 @@
     top: 15%;
     left: 15%;
 }
+
+@media (max-width: 1000px) {
+    .logo_container .logo {
+        transform: scale(.7) !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .logo_container {
+        display: none;
+    }
+
+    .profile_container .text_container {
+        width: 100%;
+    }
+
+}

@@ -50,3 +50,9 @@ h2 {
   background-color: var(--medium-color);
   box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
+
+@media (max-width:1000px) {
+  #up_button {
+    left: 85%;
+  }
+}

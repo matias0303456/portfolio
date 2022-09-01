@@ -84,3 +84,52 @@
 .fs_stack ul {
     list-style: square;
 }
+
+@media (max-width: 1000px) {
+
+    .gif {
+        width: 100%;
+        display: block;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .fs_stack {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #projects {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .sitio_yuyi_img_container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sitio_yuyi_img_container img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .fs_img {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 450px) {
+    
+    .fs_links {
+        font-size: .7rem;
+    }
+
+}

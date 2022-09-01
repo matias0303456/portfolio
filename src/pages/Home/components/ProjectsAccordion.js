@@ -90,7 +90,7 @@ export default function ProjectsAccordion() {
                         </div>
                     </div>
                     <img className='fs_img' src="https://res.cloudinary.com/dna8yz36g/image/upload/v1661989883/portafolio/Captura_de_pantalla_8_ptiejs.png" alt="" />
-                    <p>
+                    <p className='text-start fs_links'>
                         Enlace al repositorio de la UI: <a
                             href="https://github.com/matias0303456/profiles_client"
                             target="_blank"
@@ -98,7 +98,7 @@ export default function ProjectsAccordion() {
                             https://github.com/matias0303456/profiles_client
                         </a>
                     </p>
-                    <p>
+                    <p className='text-start fs_links'>
                         Enlace al repositorio de la API: <a
                             href="https://github.com/matias0303456/profiles_api"
                             target="_blank"

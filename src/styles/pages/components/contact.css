@@ -29,3 +29,19 @@
     cursor: pointer !important;
     color: var(--light-color) !important;
 }
+
+@media (max-width: 1000px) {
+
+    #contact_container {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    #contact_container {
+        width: 100%;
+    }
+
+}
