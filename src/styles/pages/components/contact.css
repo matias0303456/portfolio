@@ -1,13 +1,14 @@
+#contact {
+    min-height: 300px !important;
+    margin-top: 30px;
+}
+
 #contact_container {
     width: 40%;
     margin: 0 auto;
     background-color: rgba(130, 130, 130, .5);
     padding: 10px;
     border-radius: 10px;
-}
-
-#contact {
-    min-height: 300px !important;
 }
 
 #contact_container p {

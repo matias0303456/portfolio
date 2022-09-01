@@ -20,6 +20,8 @@ body {
   padding: 10px;
   background: linear-gradient(var(--dark-color), var(--light-color));
   background-repeat: no-repeat;
+  max-width: 2000px;
+  margin: 0 auto;
 }
 
 .d-none {
