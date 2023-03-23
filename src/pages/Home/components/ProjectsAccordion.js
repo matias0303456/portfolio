@@ -33,10 +33,10 @@ export default function ProjectsAccordion() {
                     </div>
                     <p>
                         Enlace al sitio: <a
-                            href="https://yuyiflores.com.ar"
+                            href="https://matias0303456.github.io/sitio-yuyi"
                             target="_blank"
                             rel='noreferrer'>
-                            https://yuyiflores.com.ar
+                            https://matias0303456.github.io/sitio-yuyi
                         </a>
                     </p>
                 </Accordion.Body>
