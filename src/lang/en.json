@@ -24,7 +24,7 @@
     },
     "yuyiflores": {
         "title": "Simple static website",
-        "description": "Este es un sitio web estático desarrollado para una artista plástica de mi ciudad. Si bien su funcionalidad se va ampliando de forma iterativa, actualmente cuenta con tres páginas, una de las cuales es un carrusel que muestra sus obras. Desarrollado con React JS."
+        "description": "This is a static website developed for a visual artist from my city. While its functionality is being expanded iteratively, it currently has three pages, one of which is a carousel that displays her artworks. Developed using React JS."
     },
     "usound": {
         "title": "Business website",

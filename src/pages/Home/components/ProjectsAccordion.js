@@ -86,7 +86,8 @@ export default function ProjectsAccordion() {
                             </ul>
                         </div>
                     </div>
-                    <img className='fs_img' src="https://res.cloudinary.com/dna8yz36g/image/upload/v1661989883/portafolio/Captura_de_pantalla_8_ptiejs.png" alt="" />
+                    <img className='fs_img' src="https://res.cloudinary.com/dna8yz36g/image/upload/v1680212849/Captura_de_pantalla_36_gtgrus.png" alt="" />
+                    <img className='fs_img' src="https://res.cloudinary.com/dna8yz36g/image/upload/v1680212849/Captura_de_pantalla_38_hako6j.png" alt="" />
                     <p className='text-start fs_links'>
                         {t('general.link')}: <a
                             href="https://matias0303456.github.io/profiles-app/"
