@@ -3,6 +3,9 @@ import { initReactI18next } from "react-i18next";
 
 import Router from './components/Router';
 import UpButton from './components/UpButton';
+import ChangeLangButton from "./components/ChangeLangButton";
+import { getBrowserLang } from "./utilities/getBrowserLang";
+
 import './styles/app.css';
 import es_json from './lang/es.json'
 import en_json from './lang/en.json'
@@ -22,7 +25,7 @@ i18n
         global: fr_json
       }
     },
-    lng: "fr",
+    lng: getBrowserLang(),
     interpolation: {
       escapeValue: false
     }
@@ -42,6 +45,7 @@ function App() {
   return (
     <div className="App">
       <Router />
+      <ChangeLangButton />
       <UpButton />
     </div>
   );

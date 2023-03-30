@@ -51,8 +51,39 @@ h2 {
   box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
 
+#change_lang_btn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  background-color: #fff;
+  border-radius: 0 0 10px 0;
+  overflow: hidden;
+}
+
+#change_lang_btn div {
+  padding: 10px;
+  transition: 300ms all;
+}
+
+#change_lang_btn div:hover {
+  cursor: pointer;
+  color: var(--dark-color);
+}
+
+.selectedLang {
+  background-color: var(--light-color);
+  color: #fff;
+}
+
 @media (max-width:1000px) {
   #up_button {
     left: 85%;
+  }
+}
+
+@media (max-width:768px) {
+  #change_lang_btn div {
+    padding: 25px;
   }
 }

@@ -27,7 +27,7 @@ export default function RickAndMortyApi() {
             <div className="chars_container">
                 {chars.map(c => {
                     return (
-                        <div className="char_item" onClick={() => {
+                        <div key={c.id} className="char_item" onClick={() => {
                             setSelectedChar(chars.find(char => char.id === c.id))
                             setShow(true)
                         }}>
