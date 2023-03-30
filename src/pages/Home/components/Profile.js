@@ -39,15 +39,15 @@ export default function Profile() {
                         a un nivel avanzado. En CSS, también trabajo con Bootstrap y Tailwind.
                     </p>
                     <p>
-                        En backend, trabajo con Node JS, entorno de ejecución de JavaScript, y con
-                        Laravel, framework de PHP. Como sistema gestor de bases de datos uso MySQL.
-                        Para conectar APIs con bases de datos, utilizo ORMs como Prisma o Eloquent,
+                        En backend, trabajo con Node JS, entorno de ejecución de JavaScript. 
+                        Como sistema gestor de bases de datos uso MySQL, Neo4j y Postgre Sql.
+                        Para conectar APIs con bases de datos, utilizo ORMs como Prisma,
                         o directamente el lenguaje SQL.
                     </p>
                     <p>
-                        Mi conocimiento de JavaScript y de PHP me permite también utilizar herramientas
+                        Mi conocimiento de JavaScript me permite también utilizar herramientas
                         de código de terceros, librerías que me permiten implementar determinadas
-                        funcionalidades de forma más eficiente y rápida, como NPM y Composer.
+                        funcionalidades de forma más eficiente y rápida a través de NPM.
                     </p>
                 </div>
                 <div className='logo_container'>
