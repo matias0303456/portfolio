@@ -11,7 +11,7 @@
         "first": "Mon travail se concentre sur le développement et la maintenance d'applications Web utilisant des technologies côté client et côté serveur. J'ai également des connaissances en outils d'analyse, en bonnes pratiques de développement et de documentation, en sécurité (principalement en utilisant JWT) et en optimisation de l'accessibilité et des performances pour le référencement.",
         "second": "En frontend, je travaille avec des technologies de base telles que HTML, CSS et JavaScript. J'implémente également des bibliothèques et des frameworks, principalement React JS à un niveau avancé. En CSS, je travaille également avec Bootstrap et Tailwind.",
         "third": "En backend, je travaille avec Node JS, un environnement d'exécution JavaScript. En tant que système de gestion de base de données, j'utilise MySQL, Neo4j et Postgre SQL. Pour connecter des API avec des bases de données, j'utilise des ORM tels que Prisma ou directement le langage SQL.",
-        "fourt": "Ma connaissance de JavaScript me permet également d'utiliser des outils de code tiers et des bibliothèques qui me permettent de mettre en œuvre efficacement et rapidement certaines fonctionnalités via NPM."
+        "fourth": "Ma connaissance de JavaScript me permet également d'utiliser des outils de code tiers et des bibliothèques qui me permettent de mettre en œuvre efficacement et rapidement certaines fonctionnalités via NPM."
     },
     "rickMorty": {
         "title": "Exemple de communication avec un serveur",

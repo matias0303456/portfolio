@@ -1,10 +1,13 @@
 import Profile from './components/Profile'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import { useTranslation } from 'react-i18next'
 
 import { scroll } from '../../utilities/scroll'
 
 export default function Home() {
+
+    const [t] = useTranslation('global')
 
     return (
         <main>
@@ -23,19 +26,19 @@ export default function Home() {
                         className="section_trigger"
                         onClick={() => scroll('profile')}
                     >
-                        Perfil
+                        {t('titles.profile')}
                     </section>
                     <section
                         className="section_trigger"
                         onClick={() => scroll('projects')}
                     >
-                        Proyectos
+                        {t('titles.projects')}
                     </section>
                     <section
                         className="section_trigger"
                         onClick={() => scroll('contact')}
                     >
-                        Contacto
+                        {t('titles.contact')}
                     </section>
                 </nav>
             </section>

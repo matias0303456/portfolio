@@ -12,11 +12,17 @@ i18n
   .use(initReactI18next)
   .init({
     resources: {
-      es: es_json,
-      en: en_json,
-      fr: fr_json
+      es: {
+        global: es_json
+      },
+      en: {
+        global: en_json
+      },
+      fr: {
+        global: fr_json
+      }
     },
-    lng: "es",
+    lng: "fr",
     interpolation: {
       escapeValue: false
     }

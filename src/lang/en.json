@@ -11,7 +11,7 @@
         "first": "My work focuses on the development and maintenance of web applications using both client-side and server-side technologies. Additionally, I have knowledge in analytics tools, development best practices and documentation, security (primarily using JWT), and optimization of accessibility and performance for SEO.",
         "second": "On the frontend, I work with basic technologies such as HTML, CSS, and JavaScript. I also implement libraries and frameworks, primarily advanced level React JS. In CSS, I also work with Bootstrap and Tailwind.",
         "third": "On the backend, I work with Node JS, a JavaScript runtime environment. As a database management system, I use MySQL, Neo4j, and Postgre SQL. To connect APIs with databases, I use ORMs such as Prisma or the SQL language directly.",
-        "fourt": "My knowledge of JavaScript also allows me to use third-party code tools and libraries that allow me to efficiently and quickly implement certain functionalities through NPM."
+        "fourth": "My knowledge of JavaScript also allows me to use third-party code tools and libraries that allow me to efficiently and quickly implement certain functionalities through NPM."
     },
     "rickMorty": {
         "title": "Client-server communication example",

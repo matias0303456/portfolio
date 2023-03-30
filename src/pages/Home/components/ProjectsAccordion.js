@@ -1,30 +1,28 @@
 import Accordion from 'react-bootstrap/Accordion';
+import { useTranslation } from 'react-i18next';
 
 import RickAndMortyApi from './RickAndMortyApi';
 
 export default function ProjectsAccordion() {
+
+    const [t] = useTranslation('global')
+
     return (
         <Accordion>
             <Accordion.Item eventKey="0">
-                <Accordion.Header>Ejemplo de comunicación con un servidor</Accordion.Header>
+                <Accordion.Header>{t('rickMorty.title')}</Accordion.Header>
                 <Accordion.Body>
                     <p>
-                        Esta es una demo de consumo de APIs con JavaScript. En este caso se consume la
-                        API de Rick and Morty y se guarda el array de la respuesta. Si se hace click,
-                        se abre un Modal de Bootsrap y se muestran los datos del personaje filtrado
-                        que vienen del backend, el cual  es un objeto del array.
+                        {t('rickMorty.description')}
                     </p>
                     <RickAndMortyApi />
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
-                <Accordion.Header>Sitio web estático simple</Accordion.Header>
+                <Accordion.Header>{t('yuyiflores.title')}</Accordion.Header>
                 <Accordion.Body>
                     <p>
-                        Este es un sitio web estático desarrollado para una artista plástica de mi ciudad.
-                        Si bien su funcionalidad se va ampliando de forma iterativa, actualmente
-                        cuenta con tres páginas, una de las cuales es un carrusel que muestra
-                        sus obras. Desarrollado con React JS.
+                        {t('yuyiflores.description')}
                     </p>
                     <div className='sitio_yuyi_img_container'>
                         <img src="https://res.cloudinary.com/dna8yz36g/image/upload/v1661985911/portafolio/Captura_de_pantalla_5_t3moq3.png" alt="" />
@@ -32,7 +30,7 @@ export default function ProjectsAccordion() {
                         <img src="https://res.cloudinary.com/dna8yz36g/image/upload/v1661985911/portafolio/Captura_de_pantalla_6_et3ybu.png" alt="" />
                     </div>
                     <p>
-                        Enlace: <a
+                        {t('general.link')}: <a
                             href="https://matias0303456.github.io/sitio-yuyi"
                             target="_blank"
                             rel='noreferrer'>
@@ -42,18 +40,14 @@ export default function ProjectsAccordion() {
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="2">
-                <Accordion.Header>Sitio web empresarial</Accordion.Header>
+                <Accordion.Header>{t('usound.title')}</Accordion.Header>
                 <Accordion.Body>
                     <p>
-                        Este sitio web fue desarrollado para uSound Audiómetro, una startup argentina
-                        especializada en tecnología médica para profesionales de la salud auditiva.
-                        Posee integraciones con herramientas no-code, como Typeform y Native Forms, y
-                        con herramientas de Google como Analytics, Tag Manager y Optimize. Desarrollado
-                        con React JS.
+                        {t('usound.description')}
                     </p>
                     <img className='gif' src="https://res.cloudinary.com/dna8yz36g/image/upload/v1661987028/portafolio/ezgif-4-7dd30cac16_qatnwo.gif" alt="" />
                     <p>
-                        Enlace: <a
+                        {t('general.link')}: <a
                             href="https://www.usound.co/es"
                             target="_blank"
                             rel='noreferrer'>
@@ -63,14 +57,10 @@ export default function ProjectsAccordion() {
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="3">
-                <Accordion.Header>Aplicación web fullstack</Accordion.Header>
+                <Accordion.Header>{t('profiles.title')}</Accordion.Header>
                 <Accordion.Body>
                     <p>
-                        Profiles App es una aplicación web tipo red social simple, en donde el usuario puede registrarse,
-                        iniciar sesión, editar sus datos, cambiar su avatar, seguir y ser seguido por otros perfiles.
-                        Es escalable para construir funcionalidades más complejas, como entradas, likes o
-                        comentarios. Cuenta con capas de seguridad, como autenticación con JWT (Json Web Tokens) y
-                        middlewares de validación de datos.
+                        {t('profiles.description')}
                     </p>
                     <div className='fs_stack'>
                         <div>
@@ -98,7 +88,7 @@ export default function ProjectsAccordion() {
                     </div>
                     <img className='fs_img' src="https://res.cloudinary.com/dna8yz36g/image/upload/v1661989883/portafolio/Captura_de_pantalla_8_ptiejs.png" alt="" />
                     <p className='text-start fs_links'>
-                        Enlace: <a
+                        {t('general.link')}: <a
                             href="https://matias0303456.github.io/profiles-app/"
                             target="_blank"
                             rel='noreferrer'>

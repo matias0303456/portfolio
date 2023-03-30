@@ -1,12 +1,16 @@
 import { CgMail } from 'react-icons/cg'
 import { BsLinkedin } from 'react-icons/bs'
 import { AiFillGithub } from 'react-icons/ai'
+import { useTranslation } from 'react-i18next'
 
 export default function Contact() {
+
+    const [t] = useTranslation('global')
+
     return (
         <article id="contact" className="main_section_container">
             <h2>
-                Contacto
+                {t('titles.contact')}
             </h2>
             <div id='contact_container'>
                 <p>

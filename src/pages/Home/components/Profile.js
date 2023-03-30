@@ -9,12 +9,16 @@ import { FaPhp } from 'react-icons/fa'
 import { SiPrisma } from 'react-icons/si'
 import { FaLaravel } from 'react-icons/fa'
 import { SiMysql } from 'react-icons/si'
+import { useTranslation } from 'react-i18next'
 
 export default function Profile() {
+
+    const [t] = useTranslation('global')
+
     return (
         <article id="profile" className="main_section_container">
             <h2>
-                Perfil
+                {t('titles.profile')}
             </h2>
             <div className='profile_container'>
                 <div className='logo_container'>
@@ -26,28 +30,16 @@ export default function Profile() {
                 </div>
                 <div className='text_container'>
                     <p>
-                        Mi trabajo se centra en el desarrollo y mantenimiento de aplicaciones web
-                        con tecnologías del lado del cliente y del lado del servidor.
-                        Así también, cuento con conocimientos en herramientas de analítica,
-                        en buenas prácticas de desarrollo y documentación, en seguridad
-                        (principalmente utilización de JWT) y en optimización de accesibilidad
-                        y rendimiento para SEO.
+                        {t('description.first')}
                     </p>
                     <p>
-                        En frontend trabajo con las tecnologías básicas: HTML, CSS y JavaScript.
-                        Además, implemento librerías y frameworks, principalmente React JS
-                        a un nivel avanzado. En CSS, también trabajo con Bootstrap y Tailwind.
+                        {t('description.second')}
                     </p>
                     <p>
-                        En backend, trabajo con Node JS, entorno de ejecución de JavaScript. 
-                        Como sistema gestor de bases de datos uso MySQL, Neo4j y Postgre Sql.
-                        Para conectar APIs con bases de datos, utilizo ORMs como Prisma,
-                        o directamente el lenguaje SQL.
+                        {t('description.third')}
                     </p>
                     <p>
-                        Mi conocimiento de JavaScript me permite también utilizar herramientas
-                        de código de terceros, librerías que me permiten implementar determinadas
-                        funcionalidades de forma más eficiente y rápida a través de NPM.
+                        {t('description.fourth')}
                     </p>
                 </div>
                 <div className='logo_container'>

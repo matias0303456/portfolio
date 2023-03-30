@@ -1,12 +1,16 @@
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Table from 'react-bootstrap/Table'
+import { useTranslation } from 'react-i18next';
 
 export default function RickAndMortyModal({
     show,
     setShow,
     char
 }) {
+
+    const [t] = useTranslation('global')
+
     return (
         <>
             <Modal show={show} onHide={() => setShow(false)} className="rick_morty_modal">
@@ -20,25 +24,20 @@ export default function RickAndMortyModal({
                     <Table striped bordered size="sm" className='text-center'>
                         <tbody>
                             <tr>
-                                <th>Especie</th>
+                                <th>{t('rickMorty.modal.species')}</th>
                                 <td>{char.species}</td>
                             </tr>
                             <tr>
-                                <th>Género</th>
+                                <th>{t('rickMorty.modal.gender')}</th>
                                 <td>{char.gender}</td>
                             </tr>
                             <tr>
-                                <th>Estado</th>
+                                <th>{t('rickMorty.modal.status')}</th>
                                 <td>{char.status}</td>
                             </tr>
                         </tbody>
                     </Table>
                 </Modal.Body>
-                <Modal.Footer>
-                    <Button variant="secondary" onClick={() => setShow(false)}>
-                        Cerrar
-                    </Button>
-                </Modal.Footer>
             </Modal>
         </>
     );
