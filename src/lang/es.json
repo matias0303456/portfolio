@@ -1,0 +1,13 @@
+{
+    "titles": {
+        "profile": "Perfil",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "description": {
+        "first": "Mi trabajo se centra en el desarrollo y mantenimiento de aplicaciones web con tecnologías del lado del cliente y del lado del servidor. Así también, cuento con conocimientos en herramientas de analítica, en buenas prácticas de desarrollo y documentación, en seguridad (principalmente utilización de JWT) y en optimización de accesibilidad y rendimiento para SEO.",
+        "second": "En frontend trabajo con las tecnologías básicas: HTML, CSS y JavaScript. Además, implemento librerías y frameworks, principalmente React JS a un nivel avanzado. En CSS, también trabajo con Bootstrap y Tailwind.",
+        "third": "En backend, trabajo con Node JS, entorno de ejecución de JavaScript. Como sistema gestor de bases de datos uso MySQL, Neo4j y Postgre Sql. Para conectar APIs con bases de datos, utilizo ORMs como Prisma, o directamente el lenguaje SQL.",
+        "fourt": "Mi conocimiento de JavaScript me permite también utilizar herramientas de código de terceros, librerías que me permiten implementar determinadas funcionalidades de forma más eficiente y rápida a través de NPM."
+    }
+}

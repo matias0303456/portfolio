@@ -16,7 +16,7 @@ export default function Home() {
                     <span className="logo_elements">
                         Ramos
                     </span>
-                    <p>Fullstack Developer</p>
+                    <p>Full Stack Developer</p>
                 </h1>
                 <nav>
                     <section
