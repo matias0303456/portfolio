@@ -1,7 +1,37 @@
 {
+    "general": {
+        "link": "Lien"
+    },
     "titles": {
         "profile": "Profil",
         "projects": "Projets",
         "contact": "Contact"
+    },
+    "description": {
+        "first": "Mon travail se concentre sur le développement et la maintenance d'applications Web utilisant des technologies côté client et côté serveur. J'ai également des connaissances en outils d'analyse, en bonnes pratiques de développement et de documentation, en sécurité (principalement en utilisant JWT) et en optimisation de l'accessibilité et des performances pour le référencement.",
+        "second": "En frontend, je travaille avec des technologies de base telles que HTML, CSS et JavaScript. J'implémente également des bibliothèques et des frameworks, principalement React JS à un niveau avancé. En CSS, je travaille également avec Bootstrap et Tailwind.",
+        "third": "En backend, je travaille avec Node JS, un environnement d'exécution JavaScript. En tant que système de gestion de base de données, j'utilise MySQL, Neo4j et Postgre SQL. Pour connecter des API avec des bases de données, j'utilise des ORM tels que Prisma ou directement le langage SQL.",
+        "fourt": "Ma connaissance de JavaScript me permet également d'utiliser des outils de code tiers et des bibliothèques qui me permettent de mettre en œuvre efficacement et rapidement certaines fonctionnalités via NPM."
+    },
+    "rickMorty": {
+        "title": "Exemple de communication avec un serveur",
+        "description": "Voici une démonstration de la consommation d'API avec JavaScript. Dans ce cas, l'API de Rick et Morty est consommée et le tableau de la réponse est sauvegardé. Si vous cliquez, un Modal de Bootstrap s'ouvre et affiche les données du personnage filtré qui proviennent du backend, qui est un objet du tableau.",
+        "modal": {
+            "species": "Espèce",
+            "gender": "Genre",
+            "status": "État"
+        }
+    },
+    "yuyiflores": {
+        "title": "Site web statique simple",
+        "description": "Il s'agit d'un site web statique développé pour une artiste plastique de ma ville. Bien que sa fonctionnalité soit étendue de manière itérative, il comprend actuellement trois pages, dont l'une est un carrousel qui montre ses œuvres. Développé avec React JS."
+    },
+    "usound": {
+        "title": "Site web d'entreprise",
+        "description": "Ce site web a été développé pour uSound Audiómetro, une startup argentine spécialisée dans la technologie médicale pour les professionnels de la santé auditive. Il possède des intégrations avec des outils no-code tels que Typeform et Native Forms, ainsi qu'avec des outils Google tels qu'Analytics, Tag Manager et Optimize. Développé avec React JS."
+    },
+    "profiles": {
+        "title": "Application web full stack",
+        "description": "Profiles App est une application web de réseau social simple où l'utilisateur peut s'inscrire, se connecter, éditer ses données, changer son avatar, suivre et être suivi par d'autres profils. Elle est évolutive pour construire des fonctionnalités plus complexes, telles que les publications, les likes ou les commentaires. Elle dispose de couches de sécurité telles que l'authentification avec JWT (Json Web Tokens) et des middlewares de validation des données."
     }
 }

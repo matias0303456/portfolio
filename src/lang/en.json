@@ -1,7 +1,37 @@
 {
+    "general": {
+        "link": "Link"
+    },
     "titles": {
         "profile": "Profile",
         "projects": "Projects",
         "contact": "Contact"
+    },
+    "description": {
+        "first": "My work focuses on the development and maintenance of web applications using both client-side and server-side technologies. Additionally, I have knowledge in analytics tools, development best practices and documentation, security (primarily using JWT), and optimization of accessibility and performance for SEO.",
+        "second": "On the frontend, I work with basic technologies such as HTML, CSS, and JavaScript. I also implement libraries and frameworks, primarily advanced level React JS. In CSS, I also work with Bootstrap and Tailwind.",
+        "third": "On the backend, I work with Node JS, a JavaScript runtime environment. As a database management system, I use MySQL, Neo4j, and Postgre SQL. To connect APIs with databases, I use ORMs such as Prisma or the SQL language directly.",
+        "fourt": "My knowledge of JavaScript also allows me to use third-party code tools and libraries that allow me to efficiently and quickly implement certain functionalities through NPM."
+    },
+    "rickMorty": {
+        "title": "Client-server communication example",
+        "description": "This is a demo of consuming APIs with JavaScript. In this case, the Rick and Morty API is consumed, and the response array is saved. If you click, a Bootstrap Modal opens, and the filtered character data is displayed from the backend, which is an object of the array.",
+        "modal": {
+            "species": "Species",
+            "gender": "Gender",
+            "status": "Status"
+        }
+    },
+    "yuyiflores": {
+        "title": "Simple static website",
+        "description": "Este es un sitio web estático desarrollado para una artista plástica de mi ciudad. Si bien su funcionalidad se va ampliando de forma iterativa, actualmente cuenta con tres páginas, una de las cuales es un carrusel que muestra sus obras. Desarrollado con React JS."
+    },
+    "usound": {
+        "title": "Business website",
+        "description": "This website was developed for uSound Audiómetro, an Argentine startup specialized in medical technology for hearing healthcare professionals. It has integrations with no-code tools such as Typeform and Native Forms, as well as Google tools like Analytics, Tag Manager, and Optimize. Developed using React JS."
+    },
+    "profiles": {
+        "title": "Full stack web app",
+        "description": "Profiles App is a simple social media-type web application where users can register, log in, edit their information, change their avatar, follow and be followed by other profiles. It is scalable to build more complex features such as posts, likes, or comments. It has layers of security, such as JWT (Json Web Tokens) authentication and data validation middlewares."
     }
 }

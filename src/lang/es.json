@@ -1,4 +1,7 @@
 {
+    "general": {
+        "link": "enlace"
+    },
     "titles": {
         "profile": "Perfil",
         "projects": "Proyectos",
@@ -9,5 +12,26 @@
         "second": "En frontend trabajo con las tecnologías básicas: HTML, CSS y JavaScript. Además, implemento librerías y frameworks, principalmente React JS a un nivel avanzado. En CSS, también trabajo con Bootstrap y Tailwind.",
         "third": "En backend, trabajo con Node JS, entorno de ejecución de JavaScript. Como sistema gestor de bases de datos uso MySQL, Neo4j y Postgre Sql. Para conectar APIs con bases de datos, utilizo ORMs como Prisma, o directamente el lenguaje SQL.",
         "fourt": "Mi conocimiento de JavaScript me permite también utilizar herramientas de código de terceros, librerías que me permiten implementar determinadas funcionalidades de forma más eficiente y rápida a través de NPM."
+    },
+    "rickMorty": {
+        "title": "Ejemplo de comunicación con un servidor",
+        "description": "Esta es una demo de consumo de APIs con JavaScript. En este caso se consume la API de Rick and Morty y se guarda el array de la respuesta. Si se hace click, se abre un Modal de Bootsrap y se muestran los datos del personaje filtrado que vienen del backend, el cual es un objeto del array.",
+        "modal": {
+            "species": "Especie",
+            "gender": "Género",
+            "status": "Estado"
+        }
+    },
+    "yuyiflores": {
+        "title": "Sitio web estático simple",
+        "description": "Este es un sitio web estático desarrollado para una artista plástica de mi ciudad. Si bien su funcionalidad se va ampliando de forma iterativa, actualmente cuenta con tres páginas, una de las cuales es un carrusel que muestra sus obras. Desarrollado con React JS."
+    },
+    "usound": {
+        "title": "Sitio web empresarial",
+        "description": "Este sitio web fue desarrollado para uSound Audiómetro, una startup argentina especializada en tecnología médica para profesionales de la salud auditiva. Posee integraciones con herramientas no-code, como Typeform y Native Forms, y con herramientas de Google como Analytics, Tag Manager y Optimize. Desarrollado con React JS."
+    },
+    "profiles": {
+        "title": "Aplicación web full stack",
+        "description": "Profiles App es una aplicación web tipo red social simple, en donde el usuario puede registrarse, iniciar sesión, editar sus datos, cambiar su avatar, seguir y ser seguido por otros perfiles. Es escalable para construir funcionalidades más complejas, como entradas, likes o comentarios. Cuenta con capas de seguridad, como autenticación con JWT (Json Web Tokens) y middlewares de validación de datos."
     }
 }
