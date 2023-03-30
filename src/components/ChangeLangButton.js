@@ -10,8 +10,10 @@ export default function ChangeLangButton() {
         for (let i = 0; i < elements.length; i++) {
             if (elements[i].classList.contains(i18n.language)) {
                 elements[i].classList.add('selectedLang')
+                elements[i].classList.remove('toSelectLang')
             } else {
                 elements[i].classList.remove('selectedLang')
+                elements[i].classList.add('toSelectLang')
             }
         }
     }, [i18n.language])
