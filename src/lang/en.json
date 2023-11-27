@@ -33,5 +33,9 @@
     "profiles": {
         "title": "Full stack web app",
         "description": "Profiles App is a simple social media-type web application where users can register, log in, edit their information, change their avatar, follow and be followed by other profiles. It is scalable to build more complex features such as posts, likes, or comments. It has layers of security, such as JWT (Json Web Tokens) authentication and data validation middlewares."
+    },
+    "asgardiana": {
+        "title": "Brewery system",
+        "description": "This is a system developed for the craft brewery Asgardiana. The frontend is developed using React JS and the backend using Express. The system also includes a socket integration to display notifications from an Arduino interface. It contains CRUD operations and functionalities used in the beer brewing process."
     }
 }

@@ -93,7 +93,25 @@ export default function ProjectsAccordion() {
                             href="http://vxsct2618.avnam.net/profiles/"
                             target="_blank"
                             rel='noreferrer'>
-                           http://vxsct2618.avnam.net/profiles/
+                            http://vxsct2618.avnam.net/profiles/
+                        </a>
+                    </p>
+                </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item>
+                <Accordion.Header>{t('asgardiana.title')}</Accordion.Header>
+                <Accordion.Body>
+                    <p>
+                        {t('asgardiana.description')}
+                    </p>
+                    <img className='fs_img' src='https://res.cloudinary.com/dna8yz36g/image/upload/v1701128278/Captura_de_pantalla_4_ueetke.png' alt='' />
+                    <img className='fs_img' src='https://res.cloudinary.com/dna8yz36g/image/upload/v1701128278/Captura_de_pantalla_3_idgkmn.png' alt='' />
+                    <p className='text-start fs_links'>
+                        {t('general.link')}: <a
+                            href="http://vxsct2618.avnam.net/asgardiana/"
+                            target="_blank"
+                            rel='noreferrer'>
+                            http://vxsct2618.avnam.net/asgardiana/
                         </a>
                     </p>
                 </Accordion.Body>

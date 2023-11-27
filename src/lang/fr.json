@@ -33,5 +33,9 @@
     "profiles": {
         "title": "Application web full stack",
         "description": "Profiles App est une application web de réseau social simple où l'utilisateur peut s'inscrire, se connecter, éditer ses données, changer son avatar, suivre et être suivi par d'autres profils. Elle est évolutive pour construire des fonctionnalités plus complexes, telles que les publications, les likes ou les commentaires. Elle dispose de couches de sécurité telles que l'authentification avec JWT (Json Web Tokens) et des middlewares de validation des données."
+    },
+    "asgardiana": {
+        "title": "Système pour brasserie",
+        "description": "Il s'agit d'un système développé pour la brasserie artisanale Asgardiana. Le frontend est développé avec React JS et le backend avec Express. Le système inclut également une intégration de sockets pour afficher des notifications à partir d'une interface Arduino. Il comprend des opérations de base de gestion (ABMs) et des fonctionnalités utilisées dans le processus de brassage de la bière."
     }
 }
