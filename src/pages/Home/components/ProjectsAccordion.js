@@ -9,7 +9,7 @@ export default function ProjectsAccordion() {
 
     return (
         <Accordion>
-            <Accordion.Item eventKey="0">
+            {/* <Accordion.Item eventKey="0">
                 <Accordion.Header>{t('rickMorty.title')}</Accordion.Header>
                 <Accordion.Body>
                     <p>
@@ -17,7 +17,7 @@ export default function ProjectsAccordion() {
                     </p>
                     <RickAndMortyApi />
                 </Accordion.Body>
-            </Accordion.Item>
+            </Accordion.Item> */}
             <Accordion.Item eventKey="1">
                 <Accordion.Header>{t('yuyiflores.title')}</Accordion.Header>
                 <Accordion.Body>
@@ -98,7 +98,7 @@ export default function ProjectsAccordion() {
                     </p>
                 </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item>
+            <Accordion.Item eventKey="4">
                 <Accordion.Header>{t('asgardiana.title')}</Accordion.Header>
                 <Accordion.Body>
                     <p>
