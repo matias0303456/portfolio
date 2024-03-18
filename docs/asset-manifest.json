@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.c00d6d04.css",
-    "main.js": "./static/js/main.8decbe90.js",
+    "main.js": "./static/js/main.f499ba5e.js",
     "static/media/new-tegomin-all-400-normal.woff": "./static/media/new-tegomin-all-400-normal.8ed975b0278de7f27a29.woff",
     "static/media/maitree-all-400-normal.woff": "./static/media/maitree-all-400-normal.7f72edded48941e2948c.woff",
     "static/media/new-tegomin-23-400-normal.woff2": "./static/media/new-tegomin-23-400-normal.78fdc0d56f13c45bd80d.woff2",
@@ -132,10 +132,10 @@
     "static/media/merienda-latin-ext-400-normal.woff2": "./static/media/merienda-latin-ext-400-normal.9d1332b0b9ba1c2e02a9.woff2",
     "index.html": "./index.html",
     "main.c00d6d04.css.map": "./static/css/main.c00d6d04.css.map",
-    "main.8decbe90.js.map": "./static/js/main.8decbe90.js.map"
+    "main.f499ba5e.js.map": "./static/js/main.f499ba5e.js.map"
   },
   "entrypoints": [
     "static/css/main.c00d6d04.css",
-    "static/js/main.8decbe90.js"
+    "static/js/main.f499ba5e.js"
   ]
 }

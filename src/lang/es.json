@@ -37,5 +37,17 @@
     "asgardiana": {
         "title": "Sistema para cervecería",
         "description": "Este es un sistema desarrollado para la cervecería artesanal Asgardiana. El frontend está desarrollado con React JS y el backend con Express. El sistema también incluye una integración de sockets para mostrar notificaciones desde una interfaz de Arduino. Contiene ABMs y funcionalidades que se utilizan en el proceso de elaboración de la cerveza."
+    },
+    "aitasks": {
+        "title": "Tareas de IA en el navegador",
+        "description": "AI Tasks es un sitio que integra modelos publicados en Hugging Face para realizar tareas de procesamiento de texto a través de la librería Transformers.js."
+    },
+    "noavisos": {
+        "title": "NOAvisos",
+        "description": "NOAvisos es una plataforma de publicación de avisos clasificados para el público general. Está destinado a reemplazar a la clásica sección de los periódicos. Tiene una capa gratuita y una funcionalidad premium para promocionar un aviso."
+    },
+    "lesdaflow": {
+        "title": "Lesdaflow",
+        "description": "Lesdaflow es el código base de un sistema de administración modularizado que permite extender, restringir o modificar sus funcionalidades de acuerdo a las necesidades del cliente. Aquí se muestra la versión destinada a un negocio pequeño de venta de ropa. El usuario de prueba es 'demo' y la contraseña es '123456789'."
     }
 }

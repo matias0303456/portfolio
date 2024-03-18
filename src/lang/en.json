@@ -37,5 +37,17 @@
     "asgardiana": {
         "title": "Brewery system",
         "description": "This is a system developed for the craft brewery Asgardiana. The frontend is developed using React JS and the backend using Express. The system also includes a socket integration to display notifications from an Arduino interface. It contains CRUD operations and functionalities used in the beer brewing process."
+    },
+    "aitasks": {
+        "title": "AI tasks in the browser",
+        "description": "AI Tasks is a website that integrates models published on Hugging Face to perform text processing tasks through the Transformers.js library."
+    },
+    "noavisos": {
+        "title": "NOAvisos",
+        "description": "NOAvisos is a classified ad publishing platform for the general public. It is intended to replace the traditional classifieds section of newspapers. It offers a free tier and premium functionality to promote an ad."
+    },
+    "lesdaflow": {
+        "title": "Lesdaflow",
+        "description": "Lesdaflow is the base code of a modularized management system that allows extending, restricting, or modifying its functionalities according to the client's needs. Here is the version intended for a small clothing retail business. The test user is 'demo' and the password is '123456789'."
     }
 }

@@ -90,10 +90,10 @@ export default function ProjectsAccordion() {
                     <img className='fs_img' src="https://res.cloudinary.com/dna8yz36g/image/upload/v1680212849/Captura_de_pantalla_38_hako6j.png" alt="" />
                     <p className='text-start fs_links'>
                         {t('general.link')}: <a
-                            href="http://vxsct2618.avnam.net/profiles/"
+                            href="https://vps-3895181-x.dattaweb.com/profiles/"
                             target="_blank"
                             rel='noreferrer'>
-                            http://vxsct2618.avnam.net/profiles/
+                            https://vps-3895181-x.dattaweb.com/profiles/
                         </a>
                     </p>
                 </Accordion.Body>
@@ -108,10 +108,64 @@ export default function ProjectsAccordion() {
                     <img className='fs_img' src='https://res.cloudinary.com/dna8yz36g/image/upload/v1701128278/Captura_de_pantalla_3_idgkmn.png' alt='' />
                     <p className='text-start fs_links'>
                         {t('general.link')}: <a
-                            href="http://vxsct2618.avnam.net/asgardiana/"
+                            href="https://vps-3895181-x.dattaweb.com/asgardiana/"
                             target="_blank"
                             rel='noreferrer'>
-                            http://vxsct2618.avnam.net/asgardiana/
+                            https://vps-3895181-x.dattaweb.com/asgardiana/
+                        </a>
+                    </p>
+                </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="5">
+                <Accordion.Header>{t('aitasks.title')}</Accordion.Header>
+                <Accordion.Body>
+                    <p>
+                        {t('aitasks.description')}
+                    </p>
+                    <img className='fs_img' src='https://res.cloudinary.com/dna8yz36g/image/upload/v1710780313/Captura_de_Pantalla_2024-03-18_a_la_s_13.43.49_r6tkv5.png' alt='' />
+                    <img className='fs_img' src='https://res.cloudinary.com/dna8yz36g/image/upload/v1710780313/Captura_de_Pantalla_2024-03-18_a_la_s_13.44.14_qjhkns.png' alt='' />
+                    <p className='text-start fs_links'>
+                        {t('general.link')}: <a
+                            href="https://lesdarussoftware.github.io/ai_tasks/"
+                            target="_blank"
+                            rel='noreferrer'>
+                            https://lesdarussoftware.github.io/ai_tasks/
+                        </a>
+                    </p>
+                </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="6">
+                <Accordion.Header>{t('noavisos.title')}</Accordion.Header>
+                <Accordion.Body>
+                    <p>
+                        {t('noavisos.description')}
+                    </p>
+                    <img className='fs_img' src='https://res.cloudinary.com/dna8yz36g/image/upload/v1710781661/Captura_de_Pantalla_2024-03-18_a_la_s_14.06.45_m5zg1e.png' alt='' />
+                    <img className='fs_img' src='https://res.cloudinary.com/dna8yz36g/image/upload/v1710781661/Captura_de_Pantalla_2024-03-18_a_la_s_14.07.07_jmidqh.png' alt='' />
+                    <p className='text-start fs_links'>
+                        {t('general.link')}: <a
+                            href="https://vps-3895181-x.dattaweb.com/noavisos/"
+                            target="_blank"
+                            rel='noreferrer'>
+                            https://vps-3895181-x.dattaweb.com/noavisos/
+                        </a>
+                    </p>
+                </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="7">
+                <Accordion.Header>{t('lesdaflow.title')}</Accordion.Header>
+                <Accordion.Body>
+                    <p>
+                        {t('lesdaflow.description')}
+                    </p>
+                    <img className='fs_img' src='https://res.cloudinary.com/dna8yz36g/image/upload/v1710781745/Captura_de_Pantalla_2024-03-18_a_la_s_14.07.47_ptd34u.png' alt='' />
+                    <img className='fs_img' src='https://res.cloudinary.com/dna8yz36g/image/upload/v1710781745/Captura_de_Pantalla_2024-03-18_a_la_s_14.08.16_pdnohi.png' alt='' />
+                    <p className='text-start fs_links'>
+                        {t('general.link')}: <a
+                            href="https://vps-3895181-x.dattaweb.com/veroshop/"
+                            target="_blank"
+                            rel='noreferrer'>
+                            https://vps-3895181-x.dattaweb.com/veroshop/
                         </a>
                     </p>
                 </Accordion.Body>
