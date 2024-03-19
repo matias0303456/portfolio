@@ -85,6 +85,23 @@
     list-style: square;
 }
 
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cardsContainer .card {
+    width: 18rem;
+    transition: 100ms all;
+}
+
+.cardsContainer .card:hover {
+    cursor: pointer;
+    scale: 1.05;
+}
+
 @media (max-width: 1000px) {
 
     .gif {
@@ -127,7 +144,7 @@
 }
 
 @media (max-width: 450px) {
-    
+
     .fs_links {
         font-size: .7rem;
     }

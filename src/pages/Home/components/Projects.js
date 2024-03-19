@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 import ProjectsAccordion from "./ProjectsAccordion";
+import CardsComponent from './CardsComponent'
 
 export default function Proyects() {
 
@@ -12,7 +13,8 @@ export default function Proyects() {
                 {t('titles.projects')}
             </h2>
             <section>
-                <ProjectsAccordion />
+                {/* <ProjectsAccordion /> */}
+                <CardsComponent />
             </section>
         </article>
     )
